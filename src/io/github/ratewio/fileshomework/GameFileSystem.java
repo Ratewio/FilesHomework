@@ -1,7 +1,6 @@
 package io.github.ratewio.fileshomework;
 
 import java.io.*;
-import java.nio.file.Path;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 import java.util.zip.ZipOutputStream;
