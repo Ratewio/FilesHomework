@@ -5,7 +5,7 @@ import java.io.File;
 public class Main {
 
     public static void main(String[] args) {
-        GameFileSystem gfs = new GameFileSystem();
+        GameFileSystem gfs = new GameFileSystem(new File(System.getProperty("user.home"), "Games\\SomeGame"));
         //инициализируем директорию игры, дерево папок и пишем логи в temp\temp.txt
         gfs.init();
 

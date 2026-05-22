@@ -19,10 +19,6 @@ public class GameFileSystem {
     private final String TEMP_KEY = "temp";
     private final String TEMP_FILE_KEY = "temp\\temp.txt";
 
-    public GameFileSystem() {
-        this(new File(System.getProperty("user.home"), "Games\\SomeGame"));
-    }
-
     public GameFileSystem(File mainDir) {
         logger = new Logger("GameFileSystem");
 
